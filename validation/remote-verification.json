@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/kimoong1/sejong-ai-office",
+  "verified_source_commit": "fb09cc9bf283e70748e6392cbb97d3cef0155326",
+  "web_build": "passed",
+  "python_tests": 52,
+  "node_bridge_checks": 6,
+  "upstream_spans_found": 412,
+  "candidate_spans_found": 417,
+  "reference_spans": 417,
+  "privileged_workflows": false,
+  "note": "Fresh public clone; source differences are insignificant final newlines/empty package marker. Time varies between measured runs; see both comparison files."
+}
