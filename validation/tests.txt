@@ -1,0 +1,57 @@
+test_date_cell_has_both_raw_and_display (tests.test_improvements.ImprovementTests.test_date_cell_has_both_raw_and_display) ... ok
+test_date_systems_leap_and_rollover (tests.test_improvements.ImprovementTests.test_date_systems_leap_and_rollover) ... ok
+test_number_formats_preserve_raw_semantics (tests.test_improvements.ImprovementTests.test_number_formats_preserve_raw_semantics) ... ok
+test_web_hidden_is_print_visible (tests.test_improvements.ImprovementTests.test_web_hidden_is_print_visible) ... ok
+test_bad_zip (tests.test_parser.ParserTests.test_bad_zip) ... ok
+test_block_budget (tests.test_parser.ParserTests.test_block_budget) ... ok
+test_byte_budget (tests.test_parser.ParserTests.test_byte_budget) ... ok
+test_chunks_bounded_and_all_references_resolve (tests.test_parser.ParserTests.test_chunks_bounded_and_all_references_resolve) ... ok
+test_chunks_invalid_limit (tests.test_parser.ParserTests.test_chunks_invalid_limit) ... ok
+test_cli_cannot_overwrite_input (tests.test_parser.ParserTests.test_cli_cannot_overwrite_input) ... ok
+test_cli_json_and_nonzero_for_bad_input (tests.test_parser.ParserTests.test_cli_json_and_nonzero_for_bad_input) ... ok
+test_content_detection_and_extension_warning (tests.test_parser.ParserTests.test_content_detection_and_extension_warning) ... ok
+test_depth_budget (tests.test_parser.ParserTests.test_depth_budget) ... ok
+test_doctype_utf16_blocked (tests.test_parser.ParserTests.test_doctype_utf16_blocked) ... ok
+test_doctype_utf8_blocked (tests.test_parser.ParserTests.test_doctype_utf8_blocked) ... ok
+test_duplicate_zip_names (tests.test_parser.ParserTests.test_duplicate_zip_names) ... ok
+test_encrypted_entry_rejected (tests.test_parser.ParserTests.test_encrypted_entry_rejected) ... ok
+test_entry_count_budget (tests.test_parser.ParserTests.test_entry_count_budget) ... ok
+test_external_slide_never_fetched (tests.test_parser.ParserTests.test_external_slide_never_fetched) ... ok
+test_file_worker_and_failure_isolation (tests.test_parser.ParserTests.test_file_worker_and_failure_isolation) ... ok
+test_forged_underdeclared_size (tests.test_parser.ParserTests.test_forged_underdeclared_size) ... ok
+test_hard_worker_timeout (tests.test_parser.ParserTests.test_hard_worker_timeout) ... ok
+test_hwpx_spine_table_and_inlined_order (tests.test_parser.ParserTests.test_hwpx_spine_table_and_inlined_order) ... ok
+test_inflated_part_budget (tests.test_parser.ParserTests.test_inflated_part_budget) ... ok
+test_invalid_configuration (tests.test_parser.ParserTests.test_invalid_configuration) ... ok
+test_malformed_xml_has_no_partial_content (tests.test_parser.ParserTests.test_malformed_xml_has_no_partial_content) ... ok
+test_missing_part (tests.test_parser.ParserTests.test_missing_part) ... ok
+test_namespace_prefix_independent (tests.test_parser.ParserTests.test_namespace_prefix_independent) ... ok
+test_node_budget (tests.test_parser.ParserTests.test_node_budget) ... ok
+test_non_text_object_warning (tests.test_parser.ParserTests.test_non_text_object_warning) ... ok
+test_output_budget (tests.test_parser.ParserTests.test_output_budget) ... ok
+test_pptx_alternate_branch_once (tests.test_parser.ParserTests.test_pptx_alternate_branch_once) ... ok
+test_pptx_notes_preserved (tests.test_parser.ParserTests.test_pptx_notes_preserved) ... ok
+test_pptx_redaction_uri_blocks_whole_result (tests.test_parser.ParserTests.test_pptx_redaction_uri_blocks_whole_result) ... ok
+test_pptx_uses_manifest_order_and_ignores_orphans (tests.test_parser.ParserTests.test_pptx_uses_manifest_order_and_ignores_orphans) ... ok
+test_redaction_blocks_whole_result (tests.test_parser.ParserTests.test_redaction_blocks_whole_result) ... ok
+test_relationship_escape_and_encoded_scheme (tests.test_parser.ParserTests.test_relationship_escape_and_encoded_scheme) ... ok
+test_stable_unique_source_ids (tests.test_parser.ParserTests.test_stable_unique_source_ids) ... ok
+test_text_budget (tests.test_parser.ParserTests.test_text_budget) ... ok
+test_total_inflation_budget (tests.test_parser.ParserTests.test_total_inflation_budget) ... ok
+test_traversal_zip_entry (tests.test_parser.ParserTests.test_traversal_zip_entry) ... ok
+test_unknown_format (tests.test_parser.ParserTests.test_unknown_format) ... ok
+test_unsupported_compression_rejected (tests.test_parser.ParserTests.test_unsupported_compression_rejected) ... ok
+test_word_current_revision_and_hidden_text (tests.test_parser.ParserTests.test_word_current_revision_and_hidden_text) ... ok
+test_word_notes (tests.test_parser.ParserTests.test_word_notes) ... ok
+test_word_table_spans_and_nested_table (tests.test_parser.ParserTests.test_word_table_spans_and_nested_table) ... ok
+test_word_whitespace_leading_zeros_and_headings (tests.test_parser.ParserTests.test_word_whitespace_leading_zeros_and_headings) ... ok
+test_xlsx_duplicate_cell (tests.test_parser.ParserTests.test_xlsx_duplicate_cell) ... ok
+test_xlsx_inline_and_boolean (tests.test_parser.ParserTests.test_xlsx_inline_and_boolean) ... ok
+test_xlsx_invalid_address (tests.test_parser.ParserTests.test_xlsx_invalid_address) ... ok
+test_xlsx_invalid_shared_index (tests.test_parser.ParserTests.test_xlsx_invalid_shared_index) ... ok
+test_xlsx_sparse_shared_formula_and_merges (tests.test_parser.ParserTests.test_xlsx_sparse_shared_formula_and_merges) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 1.143s
+
+OK
