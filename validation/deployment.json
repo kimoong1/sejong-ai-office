@@ -1,0 +1,11 @@
+{
+  "status": "succeeded",
+  "url": "https://sejong-ai-office.dnwndrkdud1.chatgpt.site",
+  "audience": "owner-only",
+  "project_id": "appgprj_6ada0171d6e081919c14e90050935c5f",
+  "deployment_id": "appgdep_6adac3dc19a881918f9dd3df0743ad57",
+  "version_id": "appgprj_6ada0171d6e081919c14e90050935c5f~appgver_2b4af7cedf58819198cdfb2c245fc35c",
+  "source_commit": "2a3406e111ab41c31fe0497a6ffe3ad640a75bed",
+  "updated_at": "2026-10-23T02:18:18.321101+00:00",
+  "verification": "Native Sites deployment succeeded. Browser behavior was tested locally on the same web source; production navigation requires owner authentication."
+}
