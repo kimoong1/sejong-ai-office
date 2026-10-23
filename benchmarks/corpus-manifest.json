@@ -1,0 +1,122 @@
+[
+  {
+    "id": "calibre-demo.docx",
+    "format": "docx",
+    "source_url": "https://calibre-ebook.com/downloads/demos/demo.docx",
+    "origin": "external-public-document",
+    "sha256": "269329fc7ae54b3f289b3ac52efde387edc2e566ef9a48d637e841022c7e0eab",
+    "bytes": 1311881
+  },
+  {
+    "id": "port-lineup.xlsx",
+    "format": "xlsx",
+    "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/1519293514-KRISHNAPATNAM_LINE_UP.xlsx",
+    "origin": "external-public-document",
+    "sha256": "4f25f2d8cfc95406fe9667cad3a35a7a48839275f6832fdc0c208f4507cb64e9",
+    "bytes": 44458
+  },
+  {
+    "id": "date-issue.xlsx",
+    "format": "xlsx",
+    "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/dateIssue.xlsx",
+    "origin": "external-public-document",
+    "sha256": "903073418209cb0b4e8b3489420768f66d5531ddc658e23f0f507ae88f6a4600",
+    "bytes": 4747
+  },
+  {
+    "id": "1904-calendar.xlsx",
+    "format": "xlsx",
+    "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/1904.xlsx",
+    "origin": "external-public-document",
+    "sha256": "5d661c1e7d68e2191878af84447a5c54ad837e152dc829b96087e5bad9a07122",
+    "bytes": 9524
+  },
+  {
+    "id": "formulas.xlsx",
+    "format": "xlsx",
+    "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/formulas.xlsx",
+    "origin": "external-public-document",
+    "sha256": "dde85664357d0cb5d517ab2268dcd90e30e42f9105f43f7edf112a3b87e7344b",
+    "bytes": 9571
+  },
+  {
+    "id": "shared-string-escape.xlsx",
+    "format": "xlsx",
+    "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/shared_string_with_escape.xlsx",
+    "origin": "external-public-document",
+    "sha256": "eb3784518d5bed91355e8c77fa72c4395a66f6a62945ff1b2b41993b329a3b70",
+    "bytes": 8509
+  },
+  {
+    "id": "title-table-zone-fill.hwpx",
+    "format": "hwpx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/title-table-zone-fill.hwpx",
+    "origin": "upstream-regression-document",
+    "sha256": "cc7b6f1d77bba05bb55cae80ac77255f6cb247ade0f58db7f98fae595d2e5375",
+    "bytes": 30635
+  },
+  {
+    "id": "title-table-then-inline-table.hwpx",
+    "format": "hwpx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/title-table-then-inline-table.hwpx",
+    "origin": "upstream-regression-document",
+    "sha256": "a8c41628c068aa9266c742153aebde21296667235d6569c89c3e8915470e0f3d",
+    "bytes": 35776
+  },
+  {
+    "id": "square-picture-after-page-reset.hwpx",
+    "format": "hwpx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/square-picture-after-page-reset.hwpx",
+    "origin": "upstream-regression-document",
+    "sha256": "981170934ffc8de4e587c806b6a70742aa663a3c07d63dc370b75caaf06e3637",
+    "bytes": 64255
+  },
+  {
+    "id": "paper-square-table-tac-host.hwpx",
+    "format": "hwpx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/paper-square-table-tac-host.hwpx",
+    "origin": "upstream-regression-document",
+    "sha256": "3caa6a7579208c69e19fbfcb30536731dde32871ca8e1835351e485494a3614f",
+    "bytes": 30629
+  },
+  {
+    "id": "01_standard_business.pptx",
+    "format": "pptx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/packages/pptx-engine/tests/fixtures/01_standard_business.pptx",
+    "origin": "upstream-regression-document",
+    "sha256": "faddc03270215218e78720f1c8f6e3aa862891a432f71e7ec9f3d13ea7902048",
+    "bytes": 32396
+  },
+  {
+    "id": "05_unicode_cjk_emoji.pptx",
+    "format": "pptx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/packages/pptx-engine/tests/fixtures/05_unicode_cjk_emoji.pptx",
+    "origin": "upstream-regression-document",
+    "sha256": "be477a0d22331578bf4f8766aa9608b781882745c9281204ce89c3e5cac364d8",
+    "bytes": 28318
+  },
+  {
+    "id": "06-with-footnotes.docx",
+    "format": "docx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/06-with-footnotes.docx",
+    "origin": "upstream-regression-document",
+    "sha256": "3dee3f051ad94017ceeaea22afa393536740014405f2f3792572e886bf255583",
+    "bytes": 3305
+  },
+  {
+    "id": "13-english-report.docx",
+    "format": "docx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/13-english-report.docx",
+    "origin": "upstream-regression-document",
+    "sha256": "64e63af0e58118c5fda6e4314e64d1d6ee824cd661da84bf0157d1f71bb948c1",
+    "bytes": 2646
+  },
+  {
+    "id": "11-multi-tables.docx",
+    "format": "docx",
+    "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/11-multi-tables.docx",
+    "origin": "upstream-regression-document",
+    "sha256": "4ca2380c342ab61c4b31e8f3939e030b71fe011af7640f4dfc64b6906bfdc512",
+    "bytes": 2861
+  }
+]
