@@ -1,0 +1,622 @@
+{
+  "metric": "unique normalized reference span presence recall; not full accuracy, not order/duplication/precision",
+  "warm_measurement": "7 runs after warm-up; both endpoints include local file read; Python returns structure and checks JSON budget, upstream returns plain text; cold development-runtime measurements reported separately",
+  "upstream_commit": "5fda8298a042318048a768e10fadadcc02a6d49c",
+  "documents": [
+    {
+      "id": "calibre-demo.docx",
+      "format": "docx",
+      "source_url": "https://calibre-ebook.com/downloads/demos/demo.docx",
+      "origin": "external-public-document",
+      "sha256": "269329fc7ae54b3f289b3ac52efde387edc2e566ef9a48d637e841022c7e0eab",
+      "bytes": 1311881,
+      "reference_method": "python-docx paragraphs/tables + lxml footnotes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 162,
+        "spans_total": 164,
+        "span_recall": 0.9878048780487805,
+        "warm_median_ms": 99.85020000000077,
+        "warm_samples_ms": [
+          137.16920000000027,
+          115.2489999999998,
+          115.23860000000059,
+          98.82350000000224,
+          93.988400000002,
+          99.85020000000077,
+          85.67629999999917
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 147,
+        "spans_total": 164,
+        "span_recall": 0.8963414634146342,
+        "warm_median_ms": 35.27150000445545,
+        "warm_samples_ms": [
+          43.45820000162348,
+          44.53009999997448,
+          35.27150000445545,
+          32.58280000591185,
+          33.70990000257734,
+          65.98440000379924,
+          32.955499991658144
+        ]
+      }
+    },
+    {
+      "id": "port-lineup.xlsx",
+      "format": "xlsx",
+      "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/1519293514-KRISHNAPATNAM_LINE_UP.xlsx",
+      "origin": "external-public-document",
+      "sha256": "4f25f2d8cfc95406fe9667cad3a35a7a48839275f6832fdc0c208f4507cb64e9",
+      "bytes": 44458,
+      "reference_method": "openpyxl cached values; dates normalized ISO; no formula evaluation",
+      "upstream": {
+        "ok": true,
+        "spans_found": 101,
+        "spans_total": 101,
+        "span_recall": 1.0,
+        "warm_median_ms": 30.445999999999913,
+        "warm_samples_ms": [
+          34.247299999999086,
+          30.445999999999913,
+          31.561799999999494,
+          27.19159999999829,
+          30.980500000001484,
+          23.188500000000204,
+          27.169999999998254
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 101,
+        "spans_total": 101,
+        "span_recall": 1.0,
+        "warm_median_ms": 30.446099990513176,
+        "warm_samples_ms": [
+          29.910500001278706,
+          29.35950001119636,
+          30.446099990513176,
+          68.85809999948833,
+          31.077299994649366,
+          30.680500000016764,
+          29.849299986381084
+        ]
+      }
+    },
+    {
+      "id": "date-issue.xlsx",
+      "format": "xlsx",
+      "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/dateIssue.xlsx",
+      "origin": "external-public-document",
+      "sha256": "903073418209cb0b4e8b3489420768f66d5531ddc658e23f0f507ae88f6a4600",
+      "bytes": 4747,
+      "reference_method": "openpyxl cached values; dates normalized ISO; no formula evaluation",
+      "upstream": {
+        "ok": true,
+        "spans_found": 2,
+        "spans_total": 2,
+        "span_recall": 1.0,
+        "warm_median_ms": 11.588999999999942,
+        "warm_samples_ms": [
+          11.11699999999837,
+          14.038799999998446,
+          8.83179999999993,
+          11.894000000000233,
+          11.588999999999942,
+          11.938900000001013,
+          9.297300000001997
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 1,
+        "spans_total": 2,
+        "span_recall": 0.5,
+        "warm_median_ms": 7.770399999571964,
+        "warm_samples_ms": [
+          7.882300007622689,
+          7.593699992867187,
+          7.909199994173832,
+          7.770399999571964,
+          7.614499991177581,
+          7.852199996705167,
+          7.537100012996234
+        ]
+      }
+    },
+    {
+      "id": "1904-calendar.xlsx",
+      "format": "xlsx",
+      "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/1904.xlsx",
+      "origin": "external-public-document",
+      "sha256": "5d661c1e7d68e2191878af84447a5c54ad837e152dc829b96087e5bad9a07122",
+      "bytes": 9524,
+      "reference_method": "openpyxl cached values; dates normalized ISO; no formula evaluation",
+      "upstream": {
+        "ok": true,
+        "spans_found": 1,
+        "spans_total": 1,
+        "span_recall": 1.0,
+        "warm_median_ms": 10.408300000002782,
+        "warm_samples_ms": [
+          9.218899999999849,
+          12.70049999999901,
+          7.755699999997887,
+          10.408300000002782,
+          15.288700000000972,
+          10.637099999999919,
+          10.245500000000902
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 0,
+        "spans_total": 1,
+        "span_recall": 0.0,
+        "warm_median_ms": 8.346099988557398,
+        "warm_samples_ms": [
+          8.210800006054342,
+          7.818099998985417,
+          7.6714999886462465,
+          8.419699996011332,
+          8.346099988557398,
+          8.96590000775177,
+          9.791499993298203
+        ]
+      }
+    },
+    {
+      "id": "formulas.xlsx",
+      "format": "xlsx",
+      "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/formulas.xlsx",
+      "origin": "external-public-document",
+      "sha256": "dde85664357d0cb5d517ab2268dcd90e30e42f9105f43f7edf112a3b87e7344b",
+      "bytes": 9571,
+      "reference_method": "openpyxl cached values; dates normalized ISO; no formula evaluation",
+      "upstream": {
+        "ok": true,
+        "spans_found": 3,
+        "spans_total": 3,
+        "span_recall": 1.0,
+        "warm_median_ms": 9.782500000001164,
+        "warm_samples_ms": [
+          8.224200000000565,
+          14.02520000000004,
+          9.329099999999016,
+          8.992500000000291,
+          11.604699999999866,
+          9.782500000001164,
+          12.188900000001013
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 3,
+        "spans_total": 3,
+        "span_recall": 1.0,
+        "warm_median_ms": 7.826300003216602,
+        "warm_samples_ms": [
+          9.444399998756126,
+          9.254500007955357,
+          8.212400003685616,
+          7.763200002955273,
+          7.780400002957322,
+          7.826300003216602,
+          7.703900002525188
+        ]
+      }
+    },
+    {
+      "id": "shared-string-escape.xlsx",
+      "format": "xlsx",
+      "source_url": "https://raw.githubusercontent.com/exceljs/exceljs/master/spec/integration/data/shared_string_with_escape.xlsx",
+      "origin": "external-public-document",
+      "sha256": "eb3784518d5bed91355e8c77fa72c4395a66f6a62945ff1b2b41993b329a3b70",
+      "bytes": 8509,
+      "reference_method": "openpyxl cached values; dates normalized ISO; no formula evaluation",
+      "upstream": {
+        "ok": true,
+        "spans_found": 1,
+        "spans_total": 1,
+        "span_recall": 1.0,
+        "warm_median_ms": 9.737800000002608,
+        "warm_samples_ms": [
+          10.928800000001502,
+          7.94970000000103,
+          12.626400000001013,
+          8.869599999998172,
+          9.737800000002608,
+          6.63890000000174,
+          9.940500000000611
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 1,
+        "spans_total": 1,
+        "span_recall": 1.0,
+        "warm_median_ms": 7.751099998131394,
+        "warm_samples_ms": [
+          7.679299989831634,
+          7.870600005844608,
+          7.751099998131394,
+          7.572599992272444,
+          7.477699997252785,
+          8.165499995811842,
+          7.933000000775792
+        ]
+      }
+    },
+    {
+      "id": "title-table-zone-fill.hwpx",
+      "format": "hwpx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/title-table-zone-fill.hwpx",
+      "origin": "upstream-regression-document",
+      "sha256": "cc7b6f1d77bba05bb55cae80ac77255f6cb247ade0f58db7f98fae595d2e5375",
+      "bytes": 30635,
+      "reference_method": "independent lxml HWPX direct paragraph runs; text-only coverage",
+      "upstream": {
+        "ok": true,
+        "spans_found": 9,
+        "spans_total": 10,
+        "span_recall": 0.9,
+        "warm_median_ms": 15.190199999997276,
+        "warm_samples_ms": [
+          169.0464000000029,
+          15.190199999997276,
+          15.924699999999575,
+          16.355500000001484,
+          11.386700000002747,
+          11.92239999999947,
+          11.64940000000206
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 10,
+        "spans_total": 10,
+        "span_recall": 1.0,
+        "warm_median_ms": 18.115999992005527,
+        "warm_samples_ms": [
+          17.724499994073994,
+          18.11710000038147,
+          18.115999992005527,
+          51.22000000847038,
+          19.043299995246343,
+          18.03490000020247,
+          17.678499993053265
+        ]
+      }
+    },
+    {
+      "id": "title-table-then-inline-table.hwpx",
+      "format": "hwpx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/title-table-then-inline-table.hwpx",
+      "origin": "upstream-regression-document",
+      "sha256": "a8c41628c068aa9266c742153aebde21296667235d6569c89c3e8915470e0f3d",
+      "bytes": 35776,
+      "reference_method": "independent lxml HWPX direct paragraph runs; text-only coverage",
+      "upstream": {
+        "ok": true,
+        "spans_found": 9,
+        "spans_total": 10,
+        "span_recall": 0.9,
+        "warm_median_ms": 15.250100000001112,
+        "warm_samples_ms": [
+          16.862099999998463,
+          15.824099999997998,
+          12.511399999999412,
+          13.027799999999843,
+          14.732200000002194,
+          15.250100000001112,
+          24.02179999999862
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 10,
+        "spans_total": 10,
+        "span_recall": 1.0,
+        "warm_median_ms": 18.307499994989485,
+        "warm_samples_ms": [
+          17.98600000620354,
+          18.068499994114973,
+          18.289999992703088,
+          18.307499994989485,
+          18.5883000085596,
+          75.51650000095833,
+          19.046700006583706
+        ]
+      }
+    },
+    {
+      "id": "square-picture-after-page-reset.hwpx",
+      "format": "hwpx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/square-picture-after-page-reset.hwpx",
+      "origin": "upstream-regression-document",
+      "sha256": "981170934ffc8de4e587c806b6a70742aa663a3c07d63dc370b75caaf06e3637",
+      "bytes": 64255,
+      "reference_method": "independent lxml HWPX direct paragraph runs; text-only coverage",
+      "upstream": {
+        "ok": true,
+        "spans_found": 12,
+        "spans_total": 12,
+        "span_recall": 1.0,
+        "warm_median_ms": 19.617999999998574,
+        "warm_samples_ms": [
+          11.390999999999622,
+          19.617999999998574,
+          13.69210000000021,
+          19.731299999999464,
+          23.548900000001595,
+          19.88130000000092,
+          16.822700000000623
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 12,
+        "spans_total": 12,
+        "span_recall": 1.0,
+        "warm_median_ms": 18.89419999497477,
+        "warm_samples_ms": [
+          19.721899996511638,
+          18.6113999952795,
+          18.756100005703047,
+          18.863100005546585,
+          18.970100005390123,
+          18.89419999497477,
+          19.161100004566833
+        ]
+      }
+    },
+    {
+      "id": "paper-square-table-tac-host.hwpx",
+      "format": "hwpx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/hwp/tests/fixtures/paper-square-table-tac-host.hwpx",
+      "origin": "upstream-regression-document",
+      "sha256": "3caa6a7579208c69e19fbfcb30536731dde32871ca8e1835351e485494a3614f",
+      "bytes": 30629,
+      "reference_method": "independent lxml HWPX direct paragraph runs; text-only coverage",
+      "upstream": {
+        "ok": true,
+        "spans_found": 9,
+        "spans_total": 10,
+        "span_recall": 0.9,
+        "warm_median_ms": 17.806399999997666,
+        "warm_samples_ms": [
+          16.600099999999657,
+          28.684000000001106,
+          57.93280000000232,
+          18.261200000000827,
+          14.363199999999779,
+          16.96480000000156,
+          17.806399999997666
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 10,
+        "spans_total": 10,
+        "span_recall": 1.0,
+        "warm_median_ms": 18.229599998448975,
+        "warm_samples_ms": [
+          18.94029999675695,
+          18.708899995544925,
+          17.653999995673075,
+          17.901100000017323,
+          17.75719999568537,
+          18.229599998448975,
+          18.442700005834922
+        ]
+      }
+    },
+    {
+      "id": "01_standard_business.pptx",
+      "format": "pptx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/packages/pptx-engine/tests/fixtures/01_standard_business.pptx",
+      "origin": "upstream-regression-document",
+      "sha256": "faddc03270215218e78720f1c8f6e3aa862891a432f71e7ec9f3d13ea7902048",
+      "bytes": 32396,
+      "reference_method": "python-pptx text frames/tables/notes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 19,
+        "spans_total": 19,
+        "span_recall": 1.0,
+        "warm_median_ms": 25.13390000000072,
+        "warm_samples_ms": [
+          27.69080000000031,
+          19.92029999999795,
+          25.13390000000072,
+          29.5483000000022,
+          20.12800000000061,
+          24.687400000002526,
+          29.824799999998504
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 19,
+        "spans_total": 19,
+        "span_recall": 1.0,
+        "warm_median_ms": 10.745500010671094,
+        "warm_samples_ms": [
+          10.32320001104381,
+          11.215899998205714,
+          10.130900001968257,
+          10.395100005553104,
+          10.745500010671094,
+          10.941800006548874,
+          10.869399993680418
+        ]
+      }
+    },
+    {
+      "id": "05_unicode_cjk_emoji.pptx",
+      "format": "pptx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/packages/pptx-engine/tests/fixtures/05_unicode_cjk_emoji.pptx",
+      "origin": "upstream-regression-document",
+      "sha256": "be477a0d22331578bf4f8766aa9608b781882745c9281204ce89c3e5cac364d8",
+      "bytes": 28318,
+      "reference_method": "python-pptx text frames/tables/notes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 2,
+        "spans_total": 2,
+        "span_recall": 1.0,
+        "warm_median_ms": 20.72110000000248,
+        "warm_samples_ms": [
+          22.38799999999901,
+          25.07459999999992,
+          21.70140000000174,
+          20.432300000000396,
+          20.72110000000248,
+          15.857399999997142,
+          13.580799999999726
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 2,
+        "spans_total": 2,
+        "span_recall": 1.0,
+        "warm_median_ms": 8.921000000555068,
+        "warm_samples_ms": [
+          8.711500006029382,
+          8.94509999488946,
+          9.810000003199093,
+          8.662799999001436,
+          8.921000000555068,
+          9.000300007755868,
+          8.89640000241343
+        ]
+      }
+    },
+    {
+      "id": "06-with-footnotes.docx",
+      "format": "docx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/06-with-footnotes.docx",
+      "origin": "upstream-regression-document",
+      "sha256": "3dee3f051ad94017ceeaea22afa393536740014405f2f3792572e886bf255583",
+      "bytes": 3305,
+      "reference_method": "python-docx paragraphs/tables + lxml footnotes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 42,
+        "spans_total": 42,
+        "span_recall": 1.0,
+        "warm_median_ms": 11.342399999997724,
+        "warm_samples_ms": [
+          10.968300000000454,
+          7.421399999999267,
+          15.367099999999482,
+          20.22990000000209,
+          11.188700000002427,
+          17.34560000000056,
+          11.342399999997724
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 42,
+        "spans_total": 42,
+        "span_recall": 1.0,
+        "warm_median_ms": 10.414300006232224,
+        "warm_samples_ms": [
+          10.672399992472492,
+          10.02080000762362,
+          10.414300006232224,
+          59.218299997155555,
+          10.121699990122579,
+          9.967899997718632,
+          10.447200009366497
+        ]
+      }
+    },
+    {
+      "id": "13-english-report.docx",
+      "format": "docx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/13-english-report.docx",
+      "origin": "upstream-regression-document",
+      "sha256": "64e63af0e58118c5fda6e4314e64d1d6ee824cd661da84bf0157d1f71bb948c1",
+      "bytes": 2646,
+      "reference_method": "python-docx paragraphs/tables + lxml footnotes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 9,
+        "spans_total": 9,
+        "span_recall": 1.0,
+        "warm_median_ms": 9.65570000000298,
+        "warm_samples_ms": [
+          9.675900000002002,
+          9.596600000000763,
+          12.732700000000477,
+          8.432000000000698,
+          9.65570000000298,
+          13.36160000000018,
+          7.377100000001519
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 9,
+        "spans_total": 9,
+        "span_recall": 1.0,
+        "warm_median_ms": 10.319599998183548,
+        "warm_samples_ms": [
+          10.218399998848327,
+          10.319599998183548,
+          10.933099998510443,
+          9.345699989353307,
+          10.817500005941838,
+          10.9941999980947,
+          9.780499996850267
+        ]
+      }
+    },
+    {
+      "id": "11-multi-tables.docx",
+      "format": "docx",
+      "source_url": "https://github.com/pblsketch/openoffice/blob/5fda8298a042318048a768e10fadadcc02a6d49c/apps/docs/tests/pagination-corpus/docx/11-multi-tables.docx",
+      "origin": "upstream-regression-document",
+      "sha256": "4ca2380c342ab61c4b31e8f3939e030b71fe011af7640f4dfc64b6906bfdc512",
+      "bytes": 2861,
+      "reference_method": "python-docx paragraphs/tables + lxml footnotes",
+      "upstream": {
+        "ok": true,
+        "spans_found": 31,
+        "spans_total": 31,
+        "span_recall": 1.0,
+        "warm_median_ms": 12.37710000000152,
+        "warm_samples_ms": [
+          15.503300000000309,
+          12.856900000002497,
+          12.37710000000152,
+          13.671299999998155,
+          11.683600000000297,
+          12.146600000000035,
+          9.810600000000704
+        ]
+      },
+      "candidate": {
+        "ok": true,
+        "spans_found": 31,
+        "spans_total": 31,
+        "span_recall": 1.0,
+        "warm_median_ms": 15.325200001825579,
+        "warm_samples_ms": [
+          15.203200004179962,
+          15.88939999055583,
+          15.712599997641519,
+          15.325200001825579,
+          14.429800008656457,
+          16.034299987950362,
+          14.565100005711429
+        ]
+      }
+    }
+  ]
+}
