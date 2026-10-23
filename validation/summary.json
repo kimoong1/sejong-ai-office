@@ -1,0 +1,8 @@
+{
+  "files": 15,
+  "reference_spans": 417,
+  "upstream_found": 412,
+  "candidate_found": 417,
+  "upstream_sum_medians_ms": 492.23689999999624,
+  "candidate_sum_medians_ms": 538.7697000260232
+}
