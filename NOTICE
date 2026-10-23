@@ -1,0 +1,20 @@
+SejongAI OFFICE
+Copyright (c) 2026 SejongAI OFFICE contributors
+
+The SDK and web application are newly authored software under the MIT license.
+This is an independent document extraction project, not an official distribution
+of pblsketch/openoffice, GenOffice, Microsoft Office, Hancom Office or Calibre.
+
+Comparison target:
+pblsketch/openoffice, Apache-2.0
+https://github.com/pblsketch/openoffice
+Pinned comparison commit: 5fda8298a042318048a768e10fadadcc02a6d49c
+Original engines and third-party evaluation documents are not redistributed.
+
+The browser loads Pyodide 0.27.7 from its documented jsDelivr distribution.
+Pyodide project: https://pyodide.org/
+Pyodide is distributed under its own MPL-2.0 and component licenses.
+https://github.com/pyodide/pyodide/blob/0.27.7/LICENSE
+
+The SejongAI OFFICE name is a product label selected for this prototype.
+No government, vendor or standards-body endorsement is implied.
