@@ -1,0 +1,81 @@
+{
+  "scope": "development source runtimes: Node includes tsx loader/imports; not packaged upstream Electron performance; three process starts per file; OS caches not evicted",
+  "documents": [
+    {
+      "id": "calibre-demo.docx",
+      "upstream": {
+        "samples_ms": [
+          1577.8147999953944,
+          1016.6001999896253,
+          1041.3571999961277
+        ],
+        "median_ms": 1041.3571999961277
+      },
+      "candidate": {
+        "samples_ms": [
+          218.1299000076251,
+          218.82430001278408,
+          225.65300000132993
+        ],
+        "median_ms": 218.82430001278408
+      }
+    },
+    {
+      "id": "port-lineup.xlsx",
+      "upstream": {
+        "samples_ms": [
+          954.4621000095503,
+          935.8016000041971,
+          919.26070000045
+        ],
+        "median_ms": 935.8016000041971
+      },
+      "candidate": {
+        "samples_ms": [
+          215.00419999938458,
+          222.62119999504648,
+          219.28530000150204
+        ],
+        "median_ms": 219.28530000150204
+      }
+    },
+    {
+      "id": "title-table-zone-fill.hwpx",
+      "upstream": {
+        "samples_ms": [
+          1127.751799998805,
+          1272.3727999982657,
+          1308.7986999889836
+        ],
+        "median_ms": 1272.3727999982657
+      },
+      "candidate": {
+        "samples_ms": [
+          254.2898000101559,
+          192.90999999793712,
+          207.35649998823646
+        ],
+        "median_ms": 207.35649998823646
+      }
+    },
+    {
+      "id": "01_standard_business.pptx",
+      "upstream": {
+        "samples_ms": [
+          1202.2178000042913,
+          998.2079000037629,
+          983.9314999990165
+        ],
+        "median_ms": 998.2079000037629
+      },
+      "candidate": {
+        "samples_ms": [
+          219.86779999861028,
+          201.70980000693817,
+          191.7883999994956
+        ],
+        "median_ms": 201.70980000693817
+      }
+    }
+  ]
+}
